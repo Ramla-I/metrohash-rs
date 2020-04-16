@@ -12,7 +12,10 @@
 //! assert_eq!(hash.get(&1000), Some(&"1000"));
 //! ```
 #![no_std]
-use core::collections::{HashMap, HashSet};
+
+extern crate hashbrown;
+
+use hashbrown::{HashMap, HashSet};
 use core::hash::BuildHasherDefault;
 
 mod metrohash64;
