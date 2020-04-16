@@ -1,6 +1,6 @@
-use std::num::Wrapping;
-use std::mem;
-use std::hash::Hasher;
+use core::num::Wrapping;
+use core::mem;
+use core::hash::Hasher;
 use utils::*;
 
 const K0: Wrapping<u64> = Wrapping(0xD6D018F5);
