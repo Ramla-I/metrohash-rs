@@ -11,9 +11,9 @@
 //! hash.insert(1000, "1000");
 //! assert_eq!(hash.get(&1000), Some(&"1000"));
 //! ```
-
-use std::collections::{HashMap, HashSet};
-use std::hash::BuildHasherDefault;
+#![no_std]
+use core::collections::{HashMap, HashSet};
+use core::hash::BuildHasherDefault;
 
 mod metrohash64;
 mod metrohash128;
