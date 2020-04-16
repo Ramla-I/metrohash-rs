@@ -14,3 +14,7 @@ license = "MIT"
 [dev-dependencies]
 fnv = "1.0.5"
 twox-hash = "1.1.0"
+
+[dependencies.hashbrown]
+version = "0.1.8"
+features = ["nightly"]
