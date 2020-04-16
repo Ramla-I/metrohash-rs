@@ -1,5 +1,5 @@
-use std::num::Wrapping;
-use std::ptr;
+use core::num::Wrapping;
+use core::ptr;
 
 macro_rules! impl_read {
 	($fn_name: ident, $ty: ty) => (
